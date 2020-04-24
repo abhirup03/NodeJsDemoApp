@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 const path = require('path');
 
-var PORT = process.env.port || 3001;
+//var PORT = process.env.port || 3001;
 const SLDS_DIR = '/node_modules/@salesforce-ux/design-system/assets';
  
 app.use('/slds', express.static(__dirname + SLDS_DIR));

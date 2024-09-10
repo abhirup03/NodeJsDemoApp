@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@salesforce-ux/design-system": "^2.11.8",
-    "express": "^4.19.2"
+    "express": "^4.20.0"
   }
 }
